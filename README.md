@@ -116,7 +116,3 @@ Transitioning this analytical tool into a containerized application provided cri
 
 1. **The Myth of "Works on My Machine":** Wrapping applications inside explicit `Dockerfiles` guarantees absolute runtime parity between local testing and remote cloud platforms (AWS, GCP, Azure), eliminating version variance hazards.
 2. **Microservice Scalability:** Decoupling the frontend from the API backend allows them to scale independently. In a heavy traffic production environment, the computational `backend-api` service could be scaled to multiple replicas behind a load balancer without touching or duplicating the presentation layer.
-
-```
-
-```
