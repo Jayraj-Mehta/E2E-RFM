@@ -1,0 +1,10 @@
+.env
+*.xlsx
+*.csv
+*.pkl
+*.ipynb
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
